@@ -1,0 +1,7 @@
+{
+  "name": "@wsasouza-ui/ts-config",
+  "version": "1.0.0",   
+  "private": "true",
+  "author": "Walter Santos de Andrade Souza",
+  "license": "MIT"
+}

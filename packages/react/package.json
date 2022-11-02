@@ -1,0 +1,23 @@
+{
+  "name": "@wsasouza-ui/react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm, cjs --dts",
+    "dev": "tsup src/index.ts --format esm, cjs --dts --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "Walter Santos de Andrade Souza",
+  "license": "MIT",
+  "devDependencies": {
+    "@wsasouza-ui/tokens": "*",
+    "@wsasouza-ui/ts-config": "*",
+    "@wsasouza-ui/eslint-config": "*",
+    "tsup": "^6.3.0",
+    "typescript": "^4.8.4"
+  }
+}
