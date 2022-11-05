@@ -1,6 +1,6 @@
 {
   "name": "@wsasouza-ui/docs",
-  "version": "1.0.0",  
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -24,9 +24,11 @@
     "vite": "^3.2.2"
   },
   "dependencies": {
+    "@wsasouza-ui/eslint-config": "*",
+    "@wsasouza-ui/ts-config": "*",
     "@wsasouza-ui/react": "*",
     "@wsasouza-ui/tokens": "*",
-    "@wsasouza-ui/eslint-config": "*",
+    "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
