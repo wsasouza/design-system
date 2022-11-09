@@ -10,10 +10,24 @@ var colors = {
   gray700: "#29292E",
   gray800: "#202024",
   gray900: "#121214",
-  ignite300: "#00B37E",
-  ignite500: "#00875F",
-  ignite700: "#015F43",
-  ignite900: "#00291D"
+  green300: "#00B37E",
+  green500: "#00875F",
+  green700: "#015F43",
+  green900: "#00291D",
+  blue100: "#E7EDF4",
+  blue150: "#C4D4E3",
+  blue200: "#AFC2D4",
+  blue300: "#7B96B2",
+  blue400: "#3A536B",
+  blue500: "#1C2F41",
+  blue600: "#112131",
+  blue700: "#0B1B2B",
+  blue800: "#071422",
+  blue900: "#040F1A",
+  blue350: "#3F7EE8",
+  red350: "#DE3F33",
+  green350: "#329F4E",
+  yellow350: "#EEB207"
 };
 
 // src/space.ts
@@ -48,6 +62,7 @@ var radii = {
 // src/fonts.ts
 var fonts = {
   default: "Roboto, sans-serif",
+  display: "Poppins, sans-serif",
   code: "monospace"
 };
 

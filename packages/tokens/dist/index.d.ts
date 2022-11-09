@@ -9,10 +9,24 @@ declare const colors: {
     gray700: string;
     gray800: string;
     gray900: string;
-    ignite300: string;
-    ignite500: string;
-    ignite700: string;
-    ignite900: string;
+    green300: string;
+    green500: string;
+    green700: string;
+    green900: string;
+    blue100: string;
+    blue150: string;
+    blue200: string;
+    blue300: string;
+    blue400: string;
+    blue500: string;
+    blue600: string;
+    blue700: string;
+    blue800: string;
+    blue900: string;
+    blue350: string;
+    red350: string;
+    green350: string;
+    yellow350: string;
 };
 
 declare const space: {
@@ -44,6 +58,7 @@ declare const radii: {
 
 declare const fonts: {
     default: string;
+    display: string;
     code: string;
 };
 

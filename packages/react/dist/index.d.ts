@@ -1,12 +1,8 @@
 import * as _stitches_react_types_styled_component from '@stitches/react/types/styled-component';
 import * as _stitches_react_types_css_util from '@stitches/react/types/css-util';
+import { ComponentProps } from 'react';
 
-declare type ButtonProps = {
-    size: 'small' | 'big';
-};
-declare const Button: _stitches_react_types_styled_component.StyledComponent<"button", {
-    size?: "small" | "big" | undefined;
-}, {}, _stitches_react_types_css_util.CSS<{}, {
+declare const Box: _stitches_react_types_styled_component.StyledComponent<"div", {}, {}, _stitches_react_types_css_util.CSS<{}, {
     colors: {
         white: string;
         black: string;
@@ -18,10 +14,24 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
         gray700: string;
         gray800: string;
         gray900: string;
-        ignite300: string;
-        ignite500: string;
-        ignite700: string;
-        ignite900: string;
+        green300: string;
+        green500: string;
+        green700: string;
+        green900: string;
+        blue100: string;
+        blue150: string;
+        blue200: string;
+        blue300: string;
+        blue400: string;
+        blue500: string;
+        blue600: string;
+        blue700: string;
+        blue800: string;
+        blue900: string;
+        blue350: string;
+        red350: string;
+        green350: string;
+        yellow350: string;
     };
     fontSizes: {
         xxs: string;
@@ -45,6 +55,7 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
     };
     fonts: {
         default: string;
+        display: string;
         code: string;
     };
     lineHeights: {
@@ -208,5 +219,7 @@ declare const Button: _stitches_react_types_styled_component.StyledComponent<"bu
     transition: "transitions";
     zIndex: "zIndices";
 }, {}>>;
+interface BoxProps extends ComponentProps<typeof Box> {
+}
 
-export { Button, ButtonProps };
+export { Box, BoxProps };
