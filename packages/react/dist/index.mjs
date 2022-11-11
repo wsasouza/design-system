@@ -297,10 +297,24 @@ var Button = styled("button", {
     size: "md"
   }
 });
+
+// src/components/TextInput/styles.ts
+var TextInputContainer = styled("div", {});
+
+// src/components/TextInput/index.tsx
+import { jsx as jsx2 } from "react/jsx-runtime";
+function TextInput() {
+  return /* @__PURE__ */ jsx2(TextInputContainer, {
+    children: /* @__PURE__ */ jsx2("h1", {
+      children: "Wart"
+    })
+  });
+}
 export {
   Avatar2 as Avatar,
   Box,
   Button,
   Heading,
-  Text
+  Text,
+  TextInput
 };

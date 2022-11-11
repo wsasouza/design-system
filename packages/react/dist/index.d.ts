@@ -1117,4 +1117,8 @@ interface ButtonProps extends ComponentProps<typeof Button> {
     as?: ElementType;
 }
 
-export { Avatar, AvatarProps, Box, BoxProps, Button, ButtonProps, Heading, HeadingProps, Text, TextProps };
+interface TextInputProps {
+}
+declare function TextInput(): JSX.Element;
+
+export { Avatar, AvatarProps, Box, BoxProps, Button, ButtonProps, Heading, HeadingProps, Text, TextInput, TextInputProps, TextProps };
