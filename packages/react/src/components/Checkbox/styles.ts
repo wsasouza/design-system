@@ -27,19 +27,19 @@ export const CheckboxContainer = styled(Checkbox.Root, {
 
 const slideIn = keyframes({
   from: {
-    transform: 'translateY(-100%)',
+    transform: 'scale(0)',
   },
   to: {
-    transform: 'translateY(0)',
+    transform: 'scale(1.5)',
   },
 })
 
 const slideOut = keyframes({
   from: {
-    transform: 'translateY(0)',
+    transform: 'scale(1.5)',
   },
   to: {
-    transform: 'translateY(-100%)',
+    transform: 'scale(0)',
   },
 })
 
@@ -49,10 +49,10 @@ export const CheckboxIndicator = styled(Checkbox.Indicator, {
   height: '$4',
 
   '&[data-state="checked"]': {
-    animation: `${slideIn} 200ms ease-out`,
+    animation: `${slideIn} 300ms ease-out`,
   },
 
   '&[data-state="unchecked"]': {
-    animation: `${slideOut} 200ms ease-out`,
+    animation: `${slideOut} 300ms ease-out`,
   },
 })

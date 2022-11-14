@@ -409,18 +409,18 @@ var CheckboxContainer = styled(Checkbox.Root, {
 });
 var slideIn = keyframes({
   from: {
-    transform: "translateY(-100%)"
+    transform: "scale(0)"
   },
   to: {
-    transform: "translateY(0)"
+    transform: "scale(1.5)"
   }
 });
 var slideOut = keyframes({
   from: {
-    transform: "translateY(0)"
+    transform: "scale(1.5)"
   },
   to: {
-    transform: "translateY(-100%)"
+    transform: "scale(0)"
   }
 });
 var CheckboxIndicator = styled(Checkbox.Indicator, {
@@ -428,10 +428,10 @@ var CheckboxIndicator = styled(Checkbox.Indicator, {
   width: "$4",
   height: "$4",
   '&[data-state="checked"]': {
-    animation: `${slideIn} 200ms ease-out`
+    animation: `${slideIn} 300ms ease-out`
   },
   '&[data-state="unchecked"]': {
-    animation: `${slideOut} 200ms ease-out`
+    animation: `${slideOut} 300ms ease-out`
   }
 });
 
