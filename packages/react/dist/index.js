@@ -200,6 +200,7 @@ var Heading = styled("h2", {
   lineHeight: "$shorter",
   margin: 0,
   color: "$gray100",
+  fontWeight: "$regular",
   variants: {
     size: {
       sm: { fontSize: "$xl" },

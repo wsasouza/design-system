@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/wsasouza.png',
     alt: 'Walter Santos de Andrade Souza',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
