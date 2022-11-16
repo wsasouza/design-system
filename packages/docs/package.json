@@ -24,6 +24,7 @@
     "vite": "^3.2.2"
   },
   "dependencies": {
+    "@storybook/addon-a11y": "^6.5.13",
     "@wsasouza-ui/eslint-config": "*",
     "@wsasouza-ui/react": "*",
     "@wsasouza-ui/tokens": "*",
