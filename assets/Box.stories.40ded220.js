@@ -1,0 +1,2 @@
+import{B as o,T as t}from"./index.017475b3.js";import{j as r,F as e}from"./jsx-runtime.c8fbbb54.js";import"./index.cda7f3c5.js";import"./iframe.c40305a6.js";import"./index.8152e47d.js";const c={title:"Surfaces/Box",component:o,args:{children:r(e,{children:r(t,{children:"Elemento Box"})})},argTypes:{children:{control:{type:null}}}},l={},p=["Primary"];export{l as Primary,p as __namedExportsOrder,c as default};
+//# sourceMappingURL=Box.stories.40ded220.js.map

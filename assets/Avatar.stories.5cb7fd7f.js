@@ -1,0 +1,2 @@
+import{A as t}from"./index.017475b3.js";import"./index.cda7f3c5.js";import"./iframe.c40305a6.js";import"./index.8152e47d.js";import"./jsx-runtime.c8fbbb54.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/wsasouza.png",alt:"Walter Santos de Andrade Souza"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,c as WithFallback,m as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.5cb7fd7f.js.map
